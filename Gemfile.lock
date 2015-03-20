@@ -240,7 +240,7 @@ DEPENDENCIES
   pg
   pry
   puma
-  rails (~> 4.2.0)
+  rails (~> 4.2.1)
   rails_12factor
   rails_admin
   rubocop
