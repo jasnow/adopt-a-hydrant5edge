@@ -6,7 +6,7 @@ rvm:
 - 2.2.2
 script:
 - bundle exec rake
-- bundle exec rubocop --rails --fail-level=refactor
+- bundle exec rubocop
 sudo: false
 deploy:
   api_key:
