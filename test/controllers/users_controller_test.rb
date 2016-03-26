@@ -27,7 +27,7 @@ class UsersControllerTest < ActionController::TestCase
   test 'should update user if password is correct' do
     sign_in @user
     assert_not_equal 'New Name', @user.name
-    put :update, user: {name: 'New Name', current_password: 'correct'}
+    put :update, params: { user: {name: 'New Name', current_password: 'correct'} }
     @user.reload
     assert_equal 'New Name', @user.name
     assert_response :redirect
@@ -36,17 +36,19 @@ class UsersControllerTest < ActionController::TestCase
 
   test 'should return error if password is incorrect' do
     sign_in @user
-    put :update, user: {name: 'New Name', current_password: 'incorrect'}
+    put :update, params: { user: {name: 'New Name', current_password: 'incorrect'} }
     assert_response :error
   end
 
   test 'should create user if information is valid' do
-    post :create, user: {email: 'user@example.com', name: 'User', password: 'correct', password_confirmation: 'correct'}
+    post :create, params: { user: {email: 'user@example.com',
+      name: 'User', password: 'correct', password_confirmation: 'correct'} }
     assert_response :success
   end
 
   test 'should return error if information is invalid' do
-    post :create, user: {email: 'user@example.com', name: 'User', password: 'correct', password_confirmation: 'incorrect'}
+    post :create, params: { user: {email: 'user@example.com',
+      name: 'User', password: 'correct', password_confirmation: 'incorrect'} }
     assert_response :error
   end
 end
