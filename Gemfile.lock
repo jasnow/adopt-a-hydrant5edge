@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 900d490c0a5cb1ced345ad96a7f4169d88e2003b
+  revision: 306da3e280055e9741f1be777197714b2090c6fc
   specs:
     actioncable (5.0.0.beta3)
       actionpack (= 5.0.0.beta3)
@@ -192,7 +192,7 @@ GEM
     rails_serve_static_assets (0.0.5)
     rails_stdout_logging (0.0.5)
     rainbow (2.1.0)
-    rake (11.1.1)
+    rake (11.1.2)
     responders (2.1.2)
       railties (>= 4.2.0, < 5.1)
     rubocop (0.39.0)
