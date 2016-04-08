@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 1c3afbab779f052a3fc6d5e2747874b3347d58cf
+  revision: cb95289110cf95b3faea89346be18df0409428fe
   specs:
     actioncable (5.0.0.beta3)
       actionpack (= 5.0.0.beta3)
@@ -169,7 +169,7 @@ GEM
       ast (~> 2.2)
     pg (0.18.4)
     powerpack (0.1.1)
-    puma (3.3.0)
+    puma (3.4.0)
     rack (2.0.0.alpha)
       json
     rack-test (0.6.3)
