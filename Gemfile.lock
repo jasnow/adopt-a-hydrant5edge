@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: b397d33246ae3dbc725f681a3f718a20d34313af
+  revision: 728bf0c9561a6ecc1f17fb878a4ca473a4d99867
   specs:
     devise (4.0.0.rc2)
       bcrypt (~> 3.0)
@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 87c2c070c4cf1b62ac364c53496a2da000fbf9d6
+  revision: 0c3cdf6c30c7a0a17c2a3a5049672402986bc1a7
   specs:
     actioncable (5.0.0.beta3)
       actionpack (= 5.0.0.beta3)
@@ -217,7 +217,7 @@ GEM
     simplecov-html (0.10.0)
     skylight (0.10.3)
       activesupport (>= 3.0.0)
-    spring (1.7.0)
+    spring (1.7.1)
     sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
