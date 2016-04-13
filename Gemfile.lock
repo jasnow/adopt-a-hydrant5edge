@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: d9f97fc9a487e54742ba7ff22e3f533e4548a374
+  revision: 57d150e535f65c9b408504fa6f279a5417fa3de5
   specs:
     devise (4.0.0.rc2)
       bcrypt (~> 3.0)
@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: db9bc8097399aab9c866175b12e9e099b6c83ffa
+  revision: 2b92069a4985ea21ba12ca726eb15b2daa7bd162
   specs:
     actioncable (5.0.0.beta3)
       actionpack (= 5.0.0.beta3)
@@ -130,7 +130,7 @@ GEM
     erubis (2.7.0)
     execjs (2.6.0)
     fastercsv (1.5.5)
-    font-awesome-rails (4.6.0.0)
+    font-awesome-rails (4.6.1.0)
       railties (>= 3.2, < 5.1)
     geokit (1.10.0)
     globalid (0.3.6)
@@ -241,7 +241,7 @@ GEM
       activemodel
     warden (1.2.6)
       rack (>= 1.0)
-    webmock (1.24.2)
+    webmock (1.24.3)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
