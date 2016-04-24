@@ -3,7 +3,7 @@ ruby '2.3.0'
 
 gem 'rails',       github: 'rails/rails'
 gem 'rails_admin', github: 'sferik/rails_admin'
-gem "rack-pjax",   github: 'afcapel/rack-pjax'
+gem 'rack-pjax',   github: 'afcapel/rack-pjax'
 gem 'remotipart',  github: 'mshibuya/remotipart'
 
 gem 'arel'
@@ -13,7 +13,7 @@ gem 'http_accept_language'
 gem 'nokogiri'
 gem 'pg'
 gem 'validates_formatting_of'
-gem "devise"
+gem 'devise'
 
 platforms :ruby_18 do
   gem 'fastercsv'
