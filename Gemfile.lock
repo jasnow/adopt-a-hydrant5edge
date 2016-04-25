@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 8f22006c6923ef4083936af95be1f412edeee0ee
+  revision: 643cac08a325243cab21d870c68a9c4088c58380
   specs:
     actioncable (5.0.0.beta3)
       actionpack (= 5.0.0.beta3)
@@ -196,7 +196,7 @@ GEM
       rainbow (>= 1.99.1, < 3.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
-    ruby-progressbar (1.7.5)
+    ruby-progressbar (1.8.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sass-rails (5.0.4)
