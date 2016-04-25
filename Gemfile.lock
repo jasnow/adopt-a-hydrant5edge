@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: e007afd3cd7255c752fe8ab7fa24b59526ab95cb
+  revision: 831a277d4906f13ab79401fe049e86c63c5826cb
   specs:
     actioncable (5.0.0.beta3)
       actionpack (= 5.0.0.beta3)
@@ -115,7 +115,7 @@ GEM
       tins (~> 1.6.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    devise (4.0.0)
+    devise (4.0.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0, < 5.1)
