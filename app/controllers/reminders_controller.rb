@@ -9,7 +9,7 @@ class RemindersController < ApplicationController
       @reminder.update_attribute(:sent, true)
       render(json: @reminder)
     else
-      render(json: {errors: @reminder.errors}, status: 500)
+      render(json: { errors: @reminder.errors }, status: 500)
     end
   end
 

@@ -1,76 +1,193 @@
-DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block in included at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/bundler/gems/remotipart-3a6acb36d46d/lib/remotipart/render_overrides.rb:9)
-Run options: --seed 24704
+Inspecting 60 files
+...C...CCC..CC.............CCC.......C............C..CCC.CC.
 
-# Running:
+Offenses:
 
-..................DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
+app/controllers/addresses_controller.rb:7:20: C: Space inside { missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.address'))]}}, status: 404)
+                   ^
+app/controllers/addresses_controller.rb:7:29: C: Space inside { missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.address'))]}}, status: 404)
+                            ^
+app/controllers/addresses_controller.rb:7:92: C: Space inside } missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.address'))]}}, status: 404)
+                                                                                           ^
+app/controllers/addresses_controller.rb:7:93: C: Space inside } missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.address'))]}}, status: 404)
+                                                                                            ^
+app/controllers/passwords_controller.rb:6:20: C: Space inside { missing.
+      render(json: {success: true})
+                   ^
+app/controllers/passwords_controller.rb:6:34: C: Space inside } missing.
+      render(json: {success: true})
+                                 ^
+app/controllers/passwords_controller.rb:8:20: C: Space inside { missing.
+      render(json: {errors: resource.errors}, status: 500)
+                   ^
+app/controllers/passwords_controller.rb:8:44: C: Space inside } missing.
+      render(json: {errors: resource.errors}, status: 500)
+                                           ^
+app/controllers/reminders_controller.rb:12:20: C: Space inside { missing.
+      render(json: {errors: @reminder.errors}, status: 500)
+                   ^
+app/controllers/reminders_controller.rb:12:45: C: Space inside } missing.
+      render(json: {errors: @reminder.errors}, status: 500)
+                                            ^
+app/controllers/sessions_controller.rb:15:20: C: Space inside { missing.
+      render(json: {errors: {password: [t('errors.password')]}}, status: 401)
+                   ^
+app/controllers/sessions_controller.rb:15:29: C: Space inside { missing.
+      render(json: {errors: {password: [t('errors.password')]}}, status: 401)
+                            ^
+app/controllers/sessions_controller.rb:15:62: C: Space inside } missing.
+      render(json: {errors: {password: [t('errors.password')]}}, status: 401)
+                                                             ^
+app/controllers/sessions_controller.rb:15:63: C: Space inside } missing.
+      render(json: {errors: {password: [t('errors.password')]}}, status: 401)
+                                                              ^
+app/controllers/sessions_controller.rb:24:18: C: Space inside { missing.
+    render(json: {success: signed_in})
+                 ^
+app/controllers/sessions_controller.rb:24:37: C: Space inside } missing.
+    render(json: {success: signed_in})
+                                    ^
+app/controllers/things_controller.rb:7:20: C: Space inside { missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.thing'))]}}, status: 404)
+                   ^
+app/controllers/things_controller.rb:7:29: C: Space inside { missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.thing'))]}}, status: 404)
+                            ^
+app/controllers/things_controller.rb:7:90: C: Space inside } missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.thing'))]}}, status: 404)
+                                                                                         ^
+app/controllers/things_controller.rb:7:91: C: Space inside } missing.
+      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.thing'))]}}, status: 404)
+                                                                                          ^
+app/controllers/things_controller.rb:18:20: C: Space inside { missing.
+      render(json: {errors: @thing.errors}, status: 500)
+                   ^
+app/controllers/things_controller.rb:18:42: C: Space inside } missing.
+      render(json: {errors: @thing.errors}, status: 500)
+                                         ^
+app/controllers/users_controller.rb:15:20: C: Space inside { missing.
+      render(json: {errors: resource.errors}, status: 500)
+                   ^
+app/controllers/users_controller.rb:15:44: C: Space inside } missing.
+      render(json: {errors: resource.errors}, status: 500)
+                                           ^
+app/controllers/users_controller.rb:27:20: C: Space inside { missing.
+      render(json: {errors: resource.errors}, status: 500)
+                   ^
+app/controllers/users_controller.rb:27:44: C: Space inside } missing.
+      render(json: {errors: resource.errors}, status: 500)
+                                           ^
+config/environments/development.rb:18:46: C: Space inside { missing.
+  config.action_mailer.default_url_options = {host: 'localhost:3000'}
+                                             ^
+config/environments/development.rb:18:69: C: Space inside } missing.
+  config.action_mailer.default_url_options = {host: 'localhost:3000'}
+                                                                    ^
+config/environments/production.rb:67:46: C: Space inside { missing.
+  config.action_mailer.default_url_options = {host: 'adoptahydrant.org'}
+                                             ^
+config/environments/production.rb:67:72: C: Space inside } missing.
+  config.action_mailer.default_url_options = {host: 'adoptahydrant.org'}
+                                                                       ^
+config/environments/test.rb:35:46: C: Space inside { missing.
+  config.action_mailer.default_url_options = {host: 'localhost:3000'}
+                                             ^
+config/environments/test.rb:35:69: C: Space inside } missing.
+  config.action_mailer.default_url_options = {host: 'localhost:3000'}
+                                                                    ^
+config/initializers/rails_admin.rb:3:44: C: Space inside { missing.
+    redirect_to(main_app.root_path, flash: {warning: 'You must be signed-in as an administrator to access that page'}) unless signed_in? && current_user.admin?
+                                           ^
+config/initializers/rails_admin.rb:3:117: C: Space inside } missing.
+    redirect_to(main_app.root_path, flash: {warning: 'You must be signed-in as an administrator to access that page'}) unless signed_in? && current_user.admin?
+                                                                                                                    ^
+test/controllers/addresses_controller_test.rb:6:19: C: Space inside { missing.
+      with(query: {address: 'City Hall, Boston, MA', sensor: 'false'}).
+                  ^
+test/controllers/addresses_controller_test.rb:6:69: C: Space inside } missing.
+      with(query: {address: 'City Hall, Boston, MA', sensor: 'false'}).
+                                                                    ^
+test/controllers/addresses_controller_test.rb:14:19: C: Space inside { missing.
+      with(query: {address: ', ', sensor: 'false'}).
+                  ^
+test/controllers/addresses_controller_test.rb:14:50: C: Space inside } missing.
+      with(query: {address: ', ', sensor: 'false'}).
+                                                 ^
+test/controllers/addresses_controller_test.rb:17:19: C: Space inside { missing.
+      with(query: {address: ', '}).
+                  ^
+test/controllers/addresses_controller_test.rb:17:33: C: Space inside } missing.
+      with(query: {address: ', '}).
+                                ^
+test/controllers/passwords_controller_test.rb:12:35: C: Space inside { missing.
+    post :create, params: { user: {email: @user.email} }
+                                  ^
+test/controllers/passwords_controller_test.rb:12:54: C: Space inside } missing.
+    post :create, params: { user: {email: @user.email} }
+                                                     ^
+test/controllers/passwords_controller_test.rb:21:35: C: Space inside { missing.
+    post :create, params: { user: {email: 'not_found@example.com'} }
+                                  ^
+test/controllers/passwords_controller_test.rb:21:66: C: Space inside } missing.
+    post :create, params: { user: {email: 'not_found@example.com'} }
+                                                                 ^
+test/controllers/passwords_controller_test.rb:32:34: C: Space inside { missing.
+    put :update, params: { user: {reset_password_token: token, password: 'new_password'} }
+                                 ^
+test/controllers/passwords_controller_test.rb:32:88: C: Space inside } missing.
+    put :update, params: { user: {reset_password_token: token, password: 'new_password'} }
+                                                                                       ^
+test/controllers/passwords_controller_test.rb:41:34: C: Space inside { missing.
+    put :update, params: { user: {reset_password_token: 'invalid_token',
+                                 ^
+test/controllers/passwords_controller_test.rb:42:7: C: Align the elements of a hash literal if they span more than one line.
+      password: 'new_password'} }
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+test/controllers/passwords_controller_test.rb:42:31: C: Space inside } missing.
+      password: 'new_password'} }
+                              ^
+test/controllers/reminders_controller_test.rb:13:19: C: Space inside { missing.
+      with(query: {latlng: '42.383339,-71.049226', sensor: 'false'}).
+                  ^
+test/controllers/reminders_controller_test.rb:13:67: C: Space inside } missing.
+      with(query: {latlng: '42.383339,-71.049226', sensor: 'false'}).
+                                                                  ^
+test/controllers/reminders_controller_test.rb:20:54: C: Space inside { missing.
+    post :create, params: { format: :json, reminder: {thing_id: @thing.id,
+                                                     ^
+test/controllers/reminders_controller_test.rb:21:7: C: Align the elements of a hash literal if they span more than one line.
+      to_user_id: @dan.id} }
+      ^^^^^^^^^^^^^^^^^^^
+test/controllers/reminders_controller_test.rb:21:26: C: Space inside } missing.
+      to_user_id: @dan.id} }
+                         ^
+test/controllers/sessions_controller_test.rb:22:35: C: Space inside { missing.
+    post :create, params: { user: {email: @user.email, password: 'correct'}, format: :json }
+                                  ^
+test/controllers/sessions_controller_test.rb:22:75: C: Space inside } missing.
+    post :create, params: { user: {email: @user.email, password: 'correct'}, format: :json }
+                                                                          ^
+test/controllers/sessions_controller_test.rb:27:35: C: Space inside { missing.
+    post :create, params: { user: {email: @user.email, password: 'incorrect'}, format: :json }
+                                  ^
+test/controllers/sessions_controller_test.rb:27:77: C: Space inside } missing.
+    post :create, params: { user: {email: @user.email, password: 'incorrect'}, format: :json }
+                                                                            ^
+test/controllers/things_controller_test.rb:16:66: C: Space inside { missing.
+    put :update, params: { format: 'json', id: @thing.id, thing: {name: 'Birdsill'} }
+                                                                 ^
+test/controllers/things_controller_test.rb:16:83: C: Space inside } missing.
+    put :update, params: { format: 'json', id: @thing.id, thing: {name: 'Birdsill'} }
+                                                                                  ^
+test/controllers/users_controller_test.rb:45:7: C: Align the elements of a hash literal if they span more than one line.
+      name: 'User', password: 'correct', password_confirmation: 'correct' } }
+      ^^^^^^^^^^^^
+test/controllers/users_controller_test.rb:51:7: C: Align the elements of a hash literal if they span more than one line.
+      name: 'User', password: 'correct', password_confirmation: 'incorrect' } }
+      ^^^^^^^^^^^^
 
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:44)
-DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
-..DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:49)
-DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
-.DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:30)
-DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
-.DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:39)
-DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
-keyword arguments in future Rails versions.
-
-Examples:
-
-get :show, params: { id: 1 }, session: { user_id: 1 }
-process :update, method: :post, params: { id: 1 }
- (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
-.....
-
-Finished in 1.662434s, 16.2412 runs/s, 60.7543 assertions/s.
-
-27 runs, 101 assertions, 0 failures, 0 errors, 0 skips
-Coverage report generated for MiniTest to /Users/macbookpro/Projects/adopt-a-hydrant5edge/coverage. 173 / 180 LOC (96.11%) covered.
-[33m[Coveralls] Outside the CI environment, not sending data.[0m
+60 files inspected, 62 offenses detected

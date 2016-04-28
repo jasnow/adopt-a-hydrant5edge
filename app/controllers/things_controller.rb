@@ -4,7 +4,7 @@ class ThingsController < ApplicationController
   def show
     @things = Thing.find_closest(params[:lat], params[:lng], params[:limit] || 10)
     if @things.blank?
-      render(json: {errors: {address: [t('errors.not_found', thing: t('defaults.thing'))]}}, status: 404)
+      render(json: { errors: { address: [t('errors.not_found', thing: t('defaults.thing'))] } }, status: 404)
     else
       respond_with @things
     end
@@ -15,7 +15,7 @@ class ThingsController < ApplicationController
     if @thing.update_attributes(thing_params)
       respond_with @thing
     else
-      render(json: {errors: @thing.errors}, status: 500)
+      render(json: { errors: @thing.errors }, status: 500)
     end
   end
 

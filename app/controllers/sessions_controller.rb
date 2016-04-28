@@ -12,7 +12,7 @@ class SessionsController < Devise::SessionsController
       yield resource if block_given?
       render(json: resource)
     else
-      render(json: {errors: {password: [t('errors.password')]}}, status: 401)
+      render(json: { errors: { password: [t('errors.password')] } }, status: 401)
     end
   end
 
@@ -21,6 +21,6 @@ class SessionsController < Devise::SessionsController
     sign_out(resource_name) if signed_in
     Devise.sign_out_all_scopes ? sign_out : sign_out(resource_name)
     yield resource if block_given?
-    render(json: {success: signed_in})
+    render(json: { success: signed_in })
   end
 end

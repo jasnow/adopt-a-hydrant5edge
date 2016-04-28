@@ -13,7 +13,7 @@ class ThingsControllerTest < ActionController::TestCase
 
   test 'should update hydrant' do
     assert_not_equal 'Birdsill', @thing.name
-    put :update, params: { format: 'json', id: @thing.id, thing: {name: 'Birdsill'} }
+    put :update, params: { format: 'json', id: @thing.id, thing: { name: 'Birdsill' } }
     @thing.reload
     assert_equal 'Birdsill', @thing.name
     assert_not_nil assigns :thing

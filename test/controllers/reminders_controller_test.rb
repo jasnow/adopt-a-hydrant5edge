@@ -10,15 +10,15 @@ class RemindersControllerTest < ActionController::TestCase
     @thing.user = @dan
     @thing.save!
     stub_request(:get, 'https://maps.google.com/maps/api/geocode/json').
-      with(query: {latlng: '42.383339,-71.049226', sensor: 'false'}).
+      with(query: { latlng: '42.383339,-71.049226', sensor: 'false' }).
       to_return(body: File.read(File.expand_path('../../fixtures/city_hall.json', __FILE__)))
   end
 
   test 'should send a reminder email' do
     sign_in @user
     num_deliveries = ActionMailer::Base.deliveries.size
-    post :create, params: { format: :json, reminder: {thing_id: @thing.id,
-      to_user_id: @dan.id} }
+    post :create, params: { format: :json, reminder: { thing_id: @thing.id,
+                                                       to_user_id: @dan.id } }
     assert_equal num_deliveries + 1, ActionMailer::Base.deliveries.size
     assert_response :success
     email = ActionMailer::Base.deliveries.last
