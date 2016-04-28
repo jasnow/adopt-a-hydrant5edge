@@ -1,0 +1,76 @@
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block in included at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/bundler/gems/remotipart-3a6acb36d46d/lib/remotipart/render_overrides.rb:9)
+Run options: --seed 24704
+
+# Running:
+
+..................DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:44)
+DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
+..DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:49)
+DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
+.DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:30)
+DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
+.DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from block in <class:UsersControllerTest> at /Users/macbookpro/Projects/adopt-a-hydrant5edge/test/controllers/users_controller_test.rb:39)
+DEPRECATION WARNING: ActionController::TestCase HTTP request methods will accept only
+keyword arguments in future Rails versions.
+
+Examples:
+
+get :show, params: { id: 1 }, session: { user_id: 1 }
+process :update, method: :post, params: { id: 1 }
+ (called from process at /Users/macbookpro/.rvm/gems/ruby-2.3.1@ruby2.3.1-rails5.0/gems/rails-controller-testing-0.1.1/lib/rails/controller/testing/template_assertions.rb:61)
+.....
+
+Finished in 1.662434s, 16.2412 runs/s, 60.7543 assertions/s.
+
+27 runs, 101 assertions, 0 failures, 0 errors, 0 skips
+Coverage report generated for MiniTest to /Users/macbookpro/Projects/adopt-a-hydrant5edge/coverage. 173 / 180 LOC (96.11%) covered.
+[33m[Coveralls] Outside the CI environment, not sending data.[0m
