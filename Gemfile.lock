@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 3136b17b7f5c3acd52248c65ebbd9e2bfcf5ac19
+  revision: 285292946a18aaf90e00171a762ce57647828751
   specs:
     rails (5.0.0.beta4)
       actioncable (= 5.0.0.beta4)
@@ -188,7 +188,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.1.0)
     rake (11.1.2)
-    responders (2.1.2)
+    responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
     rubocop (0.39.0)
       parser (>= 2.3.0.7, < 3.0)
