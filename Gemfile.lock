@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 6bd3e867f97ce0ef7c0900442cf1df533a7fb758
+  revision: e0a9baa044022eea52b8c4b36689396dac165944
   specs:
     rails (5.0.0.beta4)
       actioncable (= 5.0.0.beta4)
@@ -100,7 +100,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    concurrent-ruby (1.0.1)
+    concurrent-ruby (1.0.2)
     coveralls (0.8.13)
       json (~> 1.8)
       simplecov (~> 0.11.0)
