@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: a4b3c78e8619ba84625ceb83118915ef36ec2cfc
+  revision: 6bd3e867f97ce0ef7c0900442cf1df533a7fb758
   specs:
     rails (5.0.0.beta4)
       actioncable (= 5.0.0.beta4)
@@ -231,7 +231,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
-    unicode-display_width (1.0.3)
+    unicode-display_width (1.0.5)
     validates_formatting_of (0.9.0)
       activemodel
     warden (1.2.6)
