@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: a0b3de3002bd9f608b3a9e41e702762b10430207
+  revision: eff5784274725ad1e1a406b9c182d317ee3ed243
   specs:
     rails (5.0.0.rc1)
       actioncable (= 5.0.0.rc1)
@@ -190,8 +190,8 @@ GEM
     rake (11.1.2)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
-    rubocop (0.39.0)
-      parser (>= 2.3.0.7, < 3.0)
+    rubocop (0.40.0)
+      parser (>= 2.3.1.0, < 3.0)
       powerpack (~> 0.1)
       rainbow (>= 1.99.1, < 3.0)
       ruby-progressbar (~> 1.7)
