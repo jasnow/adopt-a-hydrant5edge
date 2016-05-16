@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/sferik/rails_admin.git
-  revision: 122cbf0b4fddc66a28e97eaebb08c8c184dc972c
+  revision: b540bb6b8a53f90dd88ad21e291cae18db870dec
   specs:
     rails_admin (0.8.1)
       builder (~> 3.1)
@@ -102,7 +102,7 @@ GEM
     erubis (2.7.0)
     execjs (2.6.0)
     fastercsv (1.5.5)
-    font-awesome-rails (4.6.2.0)
+    font-awesome-rails (4.6.3.0)
       railties (>= 3.2, < 5.1)
     geokit (1.10.0)
     globalid (0.3.6)
@@ -220,7 +220,7 @@ GEM
       tins (~> 1.0)
     thor (0.19.1)
     thread_safe (0.3.5)
-    tilt (2.0.3)
+    tilt (2.0.4)
     tins (1.6.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
