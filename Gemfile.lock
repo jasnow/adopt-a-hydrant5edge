@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/sferik/rails_admin.git
-  revision: b540bb6b8a53f90dd88ad21e291cae18db870dec
+  revision: 64cbbef5f0a482b870b2718f90f16e4ea109612d
   specs:
     rails_admin (0.8.1)
       builder (~> 3.1)
@@ -100,7 +100,7 @@ GEM
       warden (~> 1.2.3)
     docile (1.1.5)
     erubis (2.7.0)
-    execjs (2.6.0)
+    execjs (2.7.0)
     fastercsv (1.5.5)
     font-awesome-rails (4.6.3.0)
       railties (>= 3.2, < 5.1)
@@ -231,11 +231,11 @@ GEM
       activemodel
     warden (1.2.6)
       rack (>= 1.0)
-    webmock (2.0.2)
+    webmock (2.0.3)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
-    websocket-driver (0.6.3)
+    websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
