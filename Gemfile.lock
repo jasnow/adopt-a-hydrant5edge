@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/sferik/rails_admin.git
-  revision: 64cbbef5f0a482b870b2718f90f16e4ea109612d
+  revision: 3924e5ba9eb29cf0fd0e9c3c9af14f4e0590112a
   specs:
     rails_admin (0.8.1)
       builder (~> 3.1)
@@ -28,7 +28,6 @@ GIT
       rack-pjax (~> 0.7)
       rails (>= 4.0, < 6)
       remotipart (~> 1.0)
-      safe_yaml (~> 1.0)
       sass-rails (>= 4.0, < 6)
 
 GEM
