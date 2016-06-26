@@ -260,7 +260,7 @@ DEPENDENCIES
   rails_12factor
   rails_admin!
   remotipart!
-  rubocop
+  rubocop (= 0.40.0)
   sass-rails
   simplecov
   skylight
