@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class UsersController < Devise::RegistrationsController
   def edit
     render('sidebar/edit_profile', layout: 'sidebar')

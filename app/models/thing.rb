@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'geokit'
 
 class Thing < ActiveRecord::Base

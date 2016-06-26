@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class ThingMailer < ActionMailer::Base
   default from: 'adoptahydrant@cityofboston.gov'
 
